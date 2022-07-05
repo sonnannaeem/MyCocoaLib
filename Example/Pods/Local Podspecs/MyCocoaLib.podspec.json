@@ -1,0 +1,22 @@
+{
+  "name": "MyCocoaLib",
+  "version": "0.1.0",
+  "summary": "A short description of MyCocoaLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sonnan Naeem/MyCocoaLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sonnan Naeem": "sonnan.naeem@onymos.com"
+  },
+  "source": {
+    "git": "https://github.com/Sonnan Naeem/MyCocoaLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MyCocoaLib/Classes/**/*"
+}

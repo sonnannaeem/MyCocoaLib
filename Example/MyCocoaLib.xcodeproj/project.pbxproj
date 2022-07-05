@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C2AE54482A67AF81C00FEBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2C2AE54482A67AF81C00FEBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3015A94D4D620C9755D866DC /* Pods_MyCocoaLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCocoaLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		460422A3F13EB5580AA2F221 /* Pods-MyCocoaLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoaLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyCocoaLib_Tests/Pods-MyCocoaLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MyCocoaLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCocoaLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* MyCocoaLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCocoaLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		725E12C1E440546C10D66332 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		725E12C1E440546C10D66332 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		84C56E8DCF37A3D46226B859 /* Pods-MyCocoaLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoaLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MyCocoaLib_Example/Pods-MyCocoaLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D48E044A62BECB1B74C8D6BE /* Pods_MyCocoaLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCocoaLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F8AC0767951C4B46581C4F /* Pods-MyCocoaLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoaLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyCocoaLib_Tests/Pods-MyCocoaLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B39B5FD62B0754B584D1F6 /* MyCocoaLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyCocoaLib.podspec; path = ../MyCocoaLib.podspec; sourceTree = "<group>"; };
+		D5B39B5FD62B0754B584D1F6 /* MyCocoaLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyCocoaLib.podspec; path = ../MyCocoaLib.podspec; sourceTree = "<group>"; };
 		F8F43244A3CED51938502657 /* Pods-MyCocoaLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoaLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyCocoaLib_Example/Pods-MyCocoaLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				D4F8AC0767951C4B46581C4F /* Pods-MyCocoaLib_Tests.debug.xcconfig */,
 				460422A3F13EB5580AA2F221 /* Pods-MyCocoaLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = VTDQNGWYA6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = VTDQNGWYA6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,6 +480,7 @@
 			baseConfigurationReference = F8F43244A3CED51938502657 /* Pods-MyCocoaLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VTDQNGWYA6;
 				INFOPLIST_FILE = MyCocoaLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 84C56E8DCF37A3D46226B859 /* Pods-MyCocoaLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VTDQNGWYA6;
 				INFOPLIST_FILE = MyCocoaLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4F8AC0767951C4B46581C4F /* Pods-MyCocoaLib_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = VTDQNGWYA6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 460422A3F13EB5580AA2F221 /* Pods-MyCocoaLib_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = VTDQNGWYA6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

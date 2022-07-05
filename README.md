@@ -1,9 +1,6 @@
 # MyCocoaLib
 
-[![CI Status](https://img.shields.io/travis/Sonnan Naeem/MyCocoaLib.svg?style=flat)](https://travis-ci.org/Sonnan Naeem/MyCocoaLib)
-[![Version](https://img.shields.io/cocoapods/v/MyCocoaLib.svg?style=flat)](https://cocoapods.org/pods/MyCocoaLib)
-[![License](https://img.shields.io/cocoapods/l/MyCocoaLib.svg?style=flat)](https://cocoapods.org/pods/MyCocoaLib)
-[![Platform](https://img.shields.io/cocoapods/p/MyCocoaLib.svg?style=flat)](https://cocoapods.org/pods/MyCocoaLib)
+CocoaLibrary to test closed source distribution
 
 ## Example
 

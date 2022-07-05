@@ -45,7 +45,7 @@
 		84C56E8DCF37A3D46226B859 /* Pods-MyCocoaLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoaLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MyCocoaLib_Example/Pods-MyCocoaLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D48E044A62BECB1B74C8D6BE /* Pods_MyCocoaLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCocoaLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F8AC0767951C4B46581C4F /* Pods-MyCocoaLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoaLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyCocoaLib_Tests/Pods-MyCocoaLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B39B5FD62B0754B584D1F6 /* MyCocoaLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyCocoaLib.podspec; path = ../MyCocoaLib.podspec; sourceTree = "<group>"; };
+		D5B39B5FD62B0754B584D1F6 /* MyCocoaLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyCocoaLib.podspec; path = ../MyCocoaLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8F43244A3CED51938502657 /* Pods-MyCocoaLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoaLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyCocoaLib_Example/Pods-MyCocoaLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -293,10 +293,18 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyCocoaLib_Example/Pods-MyCocoaLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleSignIn/GoogleSignIn.framework",
 				"${BUILT_PRODUCTS_DIR}/MyCocoaLib/MyCocoaLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleSignIn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyCocoaLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
